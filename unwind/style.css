@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.relaxing {
+    background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.relaxing::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.relaxing h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button .take {
+    border: 1px solid rgb(215, 188, 139);
+    background-color: rgb(215, 188, 139);
+    font-size: 13px;
+}
+
+.button .learn {
+    border: 1px solid white;
+    font-size: 13px;
+    transition: 0.6s;
+}
+
+.learn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+input {
+    border: none;
+}
+
+select {
+    border: none;
+}
+
+.check {
+    background-color: rgb(215, 188, 139);
+
+}
+
+.first-form {
+    position: absolute;
+    left: 9%;
+    bottom: -12%;
+}
+
+.cozy-room .container {
+
+    gap: 15%;
+    padding-top: 15%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cards i {
+    background-color: transparent;
+    color: rgb(215, 188, 139);
+    font-size: 50px;
+}
+
+.cards .first .card {
+    transition: 0.5s;
+}
+
+.first .card:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border: none;
+}
+
+.text h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text span {
+    color: rgb(215, 188, 139);
+}
+
+.text button {
+    border: 1px solid rgb(215, 188, 139);
+    background-color: rgb(215, 188, 139);
+    font-size: 13px;
+}
+
+.explore .container {
+
+    gap: 15%;
+    padding-top: 15%;
+}
+
+.explore .container .content span {
+    color: rgb(215, 188, 139);
+}
+
+.explore .container .content h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons button i {
+    color: rgb(215, 188, 139);
+    font-size: 60px;
+    transition: 0.6s;
+}
+
+.buttons button:hover i {
+    color: #fff !important;
+}
+
+
+.buttons button {
+    padding: 30px;
+    background-color: rgb(246, 245, 245);
+    border-radius: 70px 70px 70px 0;
+    border: 1px solid #fff;
+    transition: 0.6s;
+}
+
+.buttons button:hover {
+    border: 1px solid rgb(215, 188, 139);
+    color: white !important;
+    background-color: rgb(215, 188, 139) !important;
+}
+
+.best-hotel {
+    background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin: 3rem 0;
+}
+
+.best-hotel::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+
+.text h2 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book button {
+    color: #fff;
+    border: 1px solid rgb(215, 188, 139);
+    background-color: rgb(215, 188, 139);
+    font-size: 13px;
+
+}
+
+.featured .container .text h2 {
+    color: black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.span span {
+    color: rgb(215, 188, 139);
+}
+
+.span button {
+    background-color: transparent;
+    border: none;
+    transition: 0.4s;
+}
+.rooms .card:hover button{
+    color: #fff;
+}
+
+.rooms .card:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.tour {
+    background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_2.jpg.webp);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.tour::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.tour h2 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.anime i {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(215, 188, 139);
+    position: relative;
+}
+
+.anime i::before {
+    z-index: 3;
+}
+
+.anime i::after {
+    content: "";
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    background-color: rgb(215, 188, 139);
+    position: absolute;
+    animation: play-anime 1s infinite ease;
+
+}
+
+.anime {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@keyframes play-anime {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.restaurant h2 {
+    color: #000;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icon {
+    background-image: url(https://preview.colorlib.com/theme/unwind/images/resto-bar.jpg.webp);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.icon i {
+    padding: 30px 20px;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgb(215, 188, 139);
+    position: absolute;
+    left: 90%;
+    bottom: 40%;
+}
+
+.bar button {
+    background-color: transparent;
+    border: none;
+    transform: 0.6s;
+}
+
+.bar button:hover {
+    background-color: #000;
+}
+
+.bar button:hover p {
+    color: #fff;
+}
+
+.bar button .img img {
+    width: 80%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.numbers span {
+    font-size: 50px;
+    color: rgb(215, 188, 139);
+}
+
+.numbers p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.recent-blog span {
+    color: rgb(215, 188, 139);
+}
+.recent-blog h2{
+    color: #000;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recent-blog p{
+    color: grey;
+}
+.recent-blog h3{
+    transform: 0.6s;
+}
+.recent-blog h3:hover{
+    color: rgb(215, 188, 139);
+}
+.search img{
+    width: 20%;
+    height: 250px;  
+}
+footer .logo p{
+    font-size: 13px;
+}
+footer .arrow p{
+transform: 0.6s;
+}
+footer .arrow p:hover{
+    color: rgb(215, 188, 139);
+}
+footer .icons p{
+    display: flex;
+    gap: 20px;
+}
+footer .icons i{
+    color: rgb(215, 188, 139);
+}
